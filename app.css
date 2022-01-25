@@ -19,10 +19,11 @@ section {
 
     background-color: powderblue;
     border: medium solid purple;
-    height: 8rem;
+    height: 12rem;
     gap: 8px;
 padding: 4px;
 flex: 1;  
+
 }
 
 nav {
@@ -46,6 +47,7 @@ display: flex;
     background-color: seagreen;
     height: 20rem;
     align-items: center;
+    gap: 15px;
 }
 
 .header {
@@ -70,4 +72,17 @@ nav:nth-child(1) {
 nav:nth-of-type(2) {
     justify-content: center;
     padding-right: 20px;
+}
+
+button {
+
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+}
+.item:nth-child(2) {
+display: flex;
+    align-items: center;
+    justify-content: center;
 }
