@@ -8,7 +8,34 @@
 
 section {
     border: medium solid red;
-    height: 100px;
+    height: 500px;
     background-color: peachpuff;
     flex: 1 1 auto;
+   display: flex;
+   padding: 10px;
+}
+
+.item {
+
+    background-color: powderblue;
+    border: medium solid purple;
+    height: 48px;
+    gap: 8px;
+padding: 4px;
+flex: 1;  
+}
+
+nav {
+
+background-color: powderblue;
+border: medium solid purple;
+max-height: 25px;
+flex: 1;
+
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
