@@ -8,7 +8,7 @@
 
 section {
     border: medium solid red;
-    height: 500px;
+    height: 400px;
     background-color: peachpuff;
     flex: 1 1 auto;
    display: flex;
@@ -19,7 +19,7 @@ section {
 
     background-color: powderblue;
     border: medium solid purple;
-    height: 48px;
+    height: 8rem;
     gap: 8px;
 padding: 4px;
 flex: 1;  
@@ -27,10 +27,12 @@ flex: 1;
 
 nav {
 
-background-color: powderblue;
+background-color: yellow;
 border: medium solid purple;
-max-height: 25px;
+height: 50px;
 flex: 1;
+gap: 8px;
+
 
 }
 .row {
@@ -38,4 +40,16 @@ flex: 1;
     flex-direction: row;
     margin-top: 40px;
     margin-bottom: 40px;
+    padding: 10px;
+    background-color: seagreen;
+    height: 20rem;
+    align-items: center;
+}
+
+.header {
+
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+
 }
