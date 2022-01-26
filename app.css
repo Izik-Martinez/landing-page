@@ -22,15 +22,15 @@ section {
 
     background-color: powderblue;
     border: medium solid purple;
-    height: 12rem;
+    height: 16rem;
     gap: 8px;
-padding: 4px;
+padding: 10px;
 flex: 1;  
 
 }
 .gray {
 
-    background-color: gray;
+    background-color: gray ;
     border: medium solid purple;
     height: 12rem;
     gap: 8px;
@@ -39,7 +39,8 @@ flex: 1;
 justify-content: center;
 align-items: center;
 display: flex;
-color: white;
+color: #f9faf8;
+
 }
 nav {
 
@@ -48,7 +49,7 @@ border: medium solid purple;
 height: 50px;
 flex: 1;
 gap: 8px;
-color: white;
+color: #f9faf8;
 
 display: flex;
 
@@ -65,10 +66,11 @@ display: flex;
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 10px;
-    background-color: seagreen;
-    height: 20rem;
+    background-color: #1f2397;
+    height: 24rem;
     align-items: center;
     gap: 15px;
+    color: #f9faf8;
 }
 
 .header {
