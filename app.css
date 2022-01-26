@@ -166,3 +166,43 @@ section:nth-child(4) {
 
     background-color: #f9faf8;
 }
+
+section:nth-of-type(2) {
+border: medium solid red;
+height: 400px;
+background-color: peachpuff;
+flex: 1 1 auto;
+display: flex;
+padding: 10px;
+margin: 0;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.boxes_container {
+
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.random {
+
+background-color: blue;
+height: 40px;
+width: 40px;
+
+}
+
+.random_info {
+
+    background-color: yellowgreen;
+    width: 100px;
+    height: 20px;
+}
