@@ -1,1 +1,3 @@
 # landing-page
+
+The recreation of this landing page from The Odin Project has been an intriguing learning experience. I now realize that coding a project from start to finish, on your own, is more difficult than I previously conceived. Although it was more difficult than just following a tutorial or copying cody, that made it all the more rewarding in the end. I'm grateful for the flexbox practice and the lessons learned through completing this project with only the use of google and stack over flow. I can't wait to improve in the future, write cleaner code, and see how other learners completed this project. 
