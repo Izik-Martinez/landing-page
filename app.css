@@ -1,4 +1,6 @@
-
+* {
+    font-family: 'roboto', sans-serif;
+}
 
 .flex-container {
 
@@ -13,6 +15,7 @@ section {
     flex: 1 1 auto;
    display: flex;
    padding: 10px;
+   margin: 0;
 }
 
 .item {
@@ -25,19 +28,37 @@ padding: 4px;
 flex: 1;  
 
 }
+.gray {
 
+    background-color: gray;
+    border: medium solid purple;
+    height: 12rem;
+    gap: 8px;
+padding: 4px;
+flex: 1;  
+justify-content: center;
+align-items: center;
+display: flex;
+color: white;
+}
 nav {
 
-background-color: yellow;
+background-color: #1f2397;
 border: medium solid purple;
 height: 50px;
 flex: 1;
 gap: 8px;
+color: white;
 
 display: flex;
 
-
 }
+
+.header_logo {
+
+    font-weight: 700;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -114,4 +135,9 @@ section:nth-of-type(4n) {
     width: 78%;
     height: 150px;
     border-radius: 5px;
+}
+
+section:nth-child(1) {
+
+    background-color: #1f2397;
 }
