@@ -190,24 +190,32 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .random {
 
 background-color: brown;
-height: 250px;
+height: 275px;
 width: 150px;
 display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 0px;
+    
 
 }
 
-.random_info {
+#random_info {
 
-    background-color: yellowgreen;
-    width: 100px;
-    height: 20px;
+    background-color: chartreuse;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .outline {
