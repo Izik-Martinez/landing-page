@@ -41,7 +41,8 @@ justify-content: center;
 align-items: center;
 display: flex;
 color: #f9faf8;
-
+max-width: 500px;
+margin-right: 140px;
 }
 nav {
 
@@ -117,17 +118,24 @@ display: flex;
 }
 
 .thor {
-    background-color: crimson;
-    border: medium solid black;
-    width: 400px;
-    height: 150px;
+    background-color: #e5e7eb;
+    border: none;
+    width: 44%;
+    height: 70%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
 }
 
+#signature {
+    margin-left: 75%; font-size: 18px; color: black; font-weight: 700;
+}
 section:nth-of-type(3n) {
 
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #e5e7eb;
 }
 
 section:nth-of-type(4n) {
