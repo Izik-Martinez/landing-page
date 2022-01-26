@@ -189,14 +189,14 @@ flex-direction: column;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
 }
 
 .random {
 
-background-color: blue;
-height: 40px;
-width: 40px;
+background-color: brown;
+height: 250px;
+width: 150px;
 
 }
 
@@ -205,4 +205,20 @@ width: 40px;
     background-color: yellowgreen;
     width: 100px;
     height: 20px;
+}
+
+.outline {
+
+    border: 3px solid #3882f6;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+
+}
+
+.subtext {
+
+    border: 3px solid gray;
+    width: 100%;
+    height: 50%
 }
