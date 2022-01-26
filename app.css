@@ -100,3 +100,18 @@ section:nth-of-type(3n) {
     align-items: center;
     justify-content: center;
 }
+
+section:nth-of-type(4n) {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.odin {
+    background-color: blue;
+    border: medium solid black;
+    width: 78%;
+    height: 150px;
+    border-radius: 5px;
+}
