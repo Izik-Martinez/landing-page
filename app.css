@@ -20,6 +20,7 @@ section {
    display: flex;
    padding: 10px;
    margin: 0;
+   display: flex;
 }
 
 .item {
@@ -273,6 +274,8 @@ font-size: 5px !important;
     padding: 0%;
 }
 
+.section:nth-child(2n){
 
+flex-direction: column;
 
-}
+}}
